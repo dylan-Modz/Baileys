@@ -1,7 +1,7 @@
 {
   "name": "baileys",
   "type": "module",
-  "version": "7.0.0-rc14-tokito.1",
+  "version": "7.0.0-rc14",
   "description": "Baileys modificada para Tokito Bot V10, com suporte às adaptações de botões da base.",
   "keywords": [
     "whatsapp",
