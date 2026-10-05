@@ -60,6 +60,7 @@ declare const makeWASocket: (config: UserFacingSocketConfig) => {
     productUpdate: (productId: string, update: import("../index.js").ProductUpdate) => Promise<import("../index.js").Product>;
     updateBussinesProfile: (args: import("../Types/Bussines.js").UpdateBussinesProfileProps) => Promise<any>;
     updateCoverPhoto: (photo: import("../index.js").WAMediaUpload) => Promise<number>;
+    updateBusinessCoverPhoto: (photo: import("../index.js").WAMediaUpload) => Promise<number>;
     removeCoverPhoto: (id: string) => Promise<any>;
     sendMessageAck: (node: import("../index.js").BinaryNode, errorCode?: number) => Promise<void>;
     sendRetryRequest: (node: import("../index.js").BinaryNode, forceIncludeKeys?: boolean) => Promise<void>;
